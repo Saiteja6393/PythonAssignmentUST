@@ -4,8 +4,8 @@ email = "ilearniexcel@gmail.com"
 pos = email.find('@')
 print("Position of '@':", pos)
 
-comPos = email[email.find('.com'):]
-print("Extracted '.com':", email[-4:])
+comPosition = email[-4:]
+print("Extracted '.com':", comPosition)
 
-gmailPos = email[pos + 1:email.find('.')]
-print("Extracted 'gmail':", gmailPos)
+gmailPosition = email[pos + 1:email.find('.')]
+print("Extracted 'gmail':", gmailPosition)
