@@ -1,5 +1,5 @@
 
-email = "saiteja@gmail.com"
+email = "ilearniexcel@gmail.com"
 
 pos = email.find('@')
 print("Position of '@':", pos)
